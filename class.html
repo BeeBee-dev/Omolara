@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <div id="dem"></div>
+  <button id="but">click here</button>
+  <script>
+    var div= document.getElementById("dem")
+    var button= document.getElementById("but")
+    var div2= document.getElementById("med")
+
+    button.addEventListener('click', function(){
+        div.style.display= "block";
+        div.style.padding="4rem";
+        div.style.backgroundColor="blue";
+        div.style.transform="scale(10deg)"
+        div.style.alignItems="center"
+
+    });
+
+  </script>
+  <div id="dem"></div>
+  <button id="but">blue</button>
+  <button id="tub">purple</button>
+  <script>
+    var div= document.getElementById("dem")
+    var button= document.getElementById("but")
+    var button2= document.getElementById("tub")
+
+    button.addEventListener('click', function(){
+        button2.style.display= "block";
+        button2.style.padding="4rem";
+        button2.style.backgroundColor="blue";
+        button2.style.transform="scale(10deg)"
+        button2.style.alignItems="center"
+
+    });
+    button.addEventListener('click', function(){
+        button2.style.display= "block";
+        button2.style.padding="4rem";
+        button2.style.backgroundColor="purple";
+        button2.style.transform="scale(10deg)"
+        button2.style.alignItems="center"
+
+    });
+    
+  </script>
+</body>
+</html>

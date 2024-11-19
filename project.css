@@ -1,0 +1,79 @@
+.div1{
+ height: 50rem;
+ width: auto ;
+ background-image: url(pexels-fotios-photos-776538.html.jpg);
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+.class1{
+    position: absolute;
+    margin-left: 25rem; ;
+    margin-top:20rem ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 150px;
+    font-weight: bolder;color:white
+
+}
+.p1{
+   position: absolute;
+   margin-left: 27rem;
+   margin-top: 30rem;   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   letter-spacing: 0.5rem;color:white
+}
+.but1{
+    margin-top: 45rem;
+    margin-left: 85rem;
+}
+.div2{
+    /* color: white; */
+    height: 40rem;
+    width: auto;
+}
+.h3{
+    margin-left: 40rem;
+    margin-top: 5rem;
+}
+.fr1{
+     
+    height: 2rem;
+    width: 4rem;
+}
+.p2{
+    color: black;
+    margin-bottom:5rem ;
+    margin-left: 25rem;
+}
+.div3{
+    width: 20rem;
+    height: 25rem;
+    color: white;
+    margin-left: 5rem;
+    margin-top: 2rem ;
+}
+.div4{
+    width: 20rem;
+    height: 25rem;
+    color: white;
+    margin-left: 5rem;
+    margin-top: 2rem ;
+}
+.div5{
+    width: 20rem;
+    height: 25rem;
+    color: white;
+    margin-left: 5rem;
+    margin-top: 2rem ;
+}
+.parent1{
+    display: flex;
+    gap: 0.5rem;
+}
+.PP1{
+    padding-bottom: 5rem;
+    color: red;
+}
+@media screen {
+    min-width: 360;
+    max-width: 1024;
+}
